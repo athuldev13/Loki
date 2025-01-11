@@ -1,0 +1,14 @@
+{
+    "algclass": "TMVAClassifier", 
+    "algopts": {
+        "Type": "BDT", 
+        "BaggedSampleFraction": 0.5, 
+        "BoostType": "Grad", 
+        "MaxDepth": 2, 
+        "MinNodeSize": "2.5%", 
+        "NTrees": 1000, 
+        "Shrinkage": 0.1, 
+        "UseBaggedBoost": true, 
+        "nCuts": 20
+    }
+}

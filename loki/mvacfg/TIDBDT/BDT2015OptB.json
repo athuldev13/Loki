@@ -1,0 +1,18 @@
+{
+    "algclass": "TMVAClassifier", 
+    "algopts": {
+        "Type": "BDT", 
+        "AdaBoostBeta": 0.2, 
+        "BoostType": "AdaBoost", 
+        "DoBoostMonitor": true, 
+        "MaxDepth": "100000", 
+        "MinNodeSize": 0.1, 
+        "NTrees": "70", 
+        "PruneMethod": "CostComplexity", 
+        "PruneStrength": "60", 
+        "PruningValFraction": 0.5, 
+        "SeparationType": "GiniIndex", 
+        "UseYesNoLeaf": "False", 
+        "nCuts": "500"
+    }
+}

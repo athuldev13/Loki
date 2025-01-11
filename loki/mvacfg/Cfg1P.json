@@ -1,0 +1,13 @@
+{
+    "invars": [
+        "TauJets.centFrac",
+        "TauJets.etOverPtLeadTrk",
+        "TauJets.innerTrkAvgDist",
+        "TauJets.absipSigLeadTrk",
+        "TauJets.SumPtTrkFrac",
+        "TauJets.ChPiEMEOverCaloEME",
+        "TauJets.EMPOverTrkSysP",
+        "TauJets.ptRatioEflowApprox",
+        "TauJets.mEflowApprox"
+    ]
+}

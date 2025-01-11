@@ -1,0 +1,56 @@
+{
+    "class": "TMVAClassifier", 
+    "config": {
+        "algopts": {
+            "AdaBoostBeta": 0.2,
+            "BoostType": "AdaBoost",
+            "DoBoostMonitor": true,
+            "MaxDepth": 8,
+            "MinNodeSize": 0.1,
+            "NTrees": 20,
+            "PruneMethod": "NoPruning",
+            "SeparationType": "GiniIndex",
+            "UseYesNoLeaf": "False",
+            "nCuts": 50
+        },
+        "invars": [
+            "TauJets.centFrac",
+            "TauJets.etOverPtLeadTrk",
+            "TauJets.innerTrkAvgDist",
+            "TauJets.absipSigLeadTrk",
+            "TauJets.SumPtTrkFrac",
+            "TauJets.ChPiEMEOverCaloEME",
+            "TauJets.EMPOverTrkSysP",
+            "TauJets.ptRatioEflowApprox",
+            "TauJets.mEflowApprox"
+        ],
+        "tmvatype": "BDT"
+    }, 
+    "name": "TMVATest", 
+    "samples": {
+        "bkg_test": {
+            "files": ["bkg1P_weight_test.root"], 
+            "name": "bkg_test", 
+            "sel": null, 
+            "weight": "weight"
+        }, 
+        "bkg_train": {
+            "files": ["bkg1P_weight_train.root"], 
+            "name": "bkg_train", 
+            "sel": null, 
+            "weight": "weight"
+        }, 
+        "sig_test": {
+            "files": ["sig1P_test.root"], 
+            "name": "sig_test", 
+            "sel": null, 
+            "weight": "weight"
+        }, 
+        "sig_train": {
+            "files": ["sig1P_train.root"], 
+            "name": "sig_train", 
+            "sel": null, 
+            "weight": "weight"
+        }
+    }
+}

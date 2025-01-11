@@ -1,0 +1,16 @@
+{
+    "algclass": "TMVAClassifier", 
+    "algopts": {
+        "Type": "BDT", 
+        "AdaBoostBeta": 0.2, 
+        "BoostType": "AdaBoost", 
+        "DoBoostMonitor": true, 
+        "MaxDepth": 8, 
+        "MinNodeSize": 0.1, 
+        "NTrees": 100, 
+        "PruneMethod": "NoPruning", 
+        "SeparationType": "GiniIndex", 
+        "UseYesNoLeaf": "False", 
+        "nCuts": 200
+    }
+}

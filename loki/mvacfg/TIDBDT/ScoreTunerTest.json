@@ -1,0 +1,29 @@
+{
+    "class": "MVScoreTuner", 
+    "config": {
+        "disc": "TauJets.BDTJetScore:fine", 
+        "reverse": false, 
+        "smooth": "k5a", 
+        "usehist": null, 
+        "xvar": "TauJets.pt:weight", 
+        "yvals2d": null, 
+        "yvar": "TauJets.mu:tid"
+    }, 
+    "info": {
+        "fmodel": "model.root", 
+        "persistified": true, 
+        "train_time": 52.773988008499146, 
+        "trained": true
+    }, 
+    "name": "MyFirstScoreTuner", 
+    "samples": {
+        "sig_train": {
+            "files": [
+                "sig1P_test.root"
+            ], 
+            "name": "sig_train", 
+            "sel": null, 
+            "weight": "weight"
+        }
+    }
+}
