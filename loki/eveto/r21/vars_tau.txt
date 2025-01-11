@@ -1,0 +1,37 @@
+# Basic Vars
+TauJets.numTrack
+TauJets.decayMode
+TauJets.pt
+TauJets.eta
+TauJets.nVtx
+TauJets.mu
+TauJets.isTauFlags
+# ID Vars
+TauJets.BDTEleScore
+#TauJets.ABS_ETA_LEAD_TRACK
+TauJets.absleadTrackEta
+TauJets.leadTrackDeltaEta
+TauJets.leadTrackDeltaPhi
+TauJets.centFrac
+TauJets.etOverPtLeadTrk
+TauJets.etEMOverPtLeadTrk
+TauJets.innerTrkAvgDist
+TauJets.EMFrac
+TauJets.leadTrackProbHT
+TauJets.secMaxStripEt
+TauJets.PSFrac
+TauJets.hadLeakEt
+TauJets.ChPiEMEOverCaloEME
+TauJets.secMaxStripEtOverPt
+# New fixed vars
+TauJets.etHotShotDR1
+TauJets.etHotShotWin
+TauJets.etHotShotDR1OverPtLeadTrk
+TauJets.etHotShotWinOverPtLeadTrk
+TauJets.EMFracFixed
+TauJets.hadLeakFracFixed
+# Truth Vars
+TauJets.numProngTruth
+TauJets.decayModeTruth
+TauJets.ptTruth
+TauJets.etaTruth
