@@ -1,0 +1,24 @@
+#!/usr/bin/env python
+# encoding: utf-8
+"""
+loki
+~~~~
+
+Main loki executable. Wrapper for :func:`loki.utils.main.main`.
+
+"""
+__author__    = "Will Davey"
+__email__     = "will.davey@cern.ch"
+__created__   = "2016-03-29"
+__copyright__ = "Copyright 2016 Will Davey"
+__license__   = "GPL http://www.gnu.org/licenses/gpl.html"
+
+
+#______________________________________________________________________________=buf=
+if __name__=="__main__":
+    from loki.utils.main import main
+    main()
+    pass 
+
+
+## EOF
